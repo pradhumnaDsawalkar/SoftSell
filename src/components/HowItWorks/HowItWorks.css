@@ -1,0 +1,50 @@
+.how-it-works {
+    padding: 6rem 2rem;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .how-it-works-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  
+  .steps-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1024px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Allow wrapping of elements on smaller screens */
+    gap: 2rem; /* Space between the steps */
+  }
+  
+  .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Ensure step takes full width on small screens */
+    max-width: 250px; /* Max width for each step */
+  }
+  
+  .step-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .step-text {
+    font-size: 1.25rem;
+  }
+  
+  /* Responsive styling for small screens */
+  @media (max-width: 768px) {
+    .steps-container {
+      justify-content: center; /* Center the content on smaller screens */
+    }
+  
+    .step {
+      width: 80%; /* Ensure each step item takes up a good portion of the screen */
+      max-width: none; /* Remove max-width on smaller screens */
+    }
+  }
+  

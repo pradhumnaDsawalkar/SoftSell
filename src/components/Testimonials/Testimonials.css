@@ -1,0 +1,66 @@
+.testimonials {
+    padding: 6rem 2rem;
+    background-color: #f9fafb;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  
+  .testimonials-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+  }
+  
+  .testimonial-card {
+    background: linear-gradient(45deg, #f1f5f9,#ffff,#f1f5f9); /* Symmetric gradient */
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1); /* Softer and deeper shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .testimonial-text {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    color: #2d3748;
+  }
+  
+  .testimonial-author {
+    font-size: 1rem;
+    color: #4a5568;
+  }
+  
+  /* Swiper styles */
+  .swiper-pagination-bullet {
+    margin-top:2rem;
+    background: #2b6cb0 !important;
+    opacity: 0.5;
+  }
+  
+  .swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+
+  .testimonial-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Smaller size for navigation buttons */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #2b6cb0 !important;
+  font-size: 1.2rem !important;  /* Smaller arrow size */
+  width: 32px !important;
+  height: 32px !important;
+}
+
+/* Customize arrow icon size */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 1.5rem !important;
+}
+
+ 

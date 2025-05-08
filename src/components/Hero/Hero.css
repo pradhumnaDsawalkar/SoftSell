@@ -1,0 +1,35 @@
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 6rem 2rem;
+    background-color: #1e3a8a; /* Tailwind's blue-900 */
+    color: white;
+  }
+  
+  .hero-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-button {
+    background-color: #48bb78; /* Tailwind's green-500 */
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .hero-button:hover {
+    background-color: #38a169; /* Tailwind's green-600 */
+  }
+  

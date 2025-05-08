@@ -1,0 +1,50 @@
+.why-choose-us {
+    padding: 6rem 2rem;
+    text-align: center;
+    background-color: #f3f4f6; /* Tailwind's gray-100 */
+  }
+  
+  .why-choose-us-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  
+  .benefits-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1024px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Allow wrapping of elements on smaller screens */
+    gap: 2rem; /* Space between items */
+  }
+  
+  .benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Ensures that each benefit takes full width on small screens */
+    max-width: 250px; /* Maximum width for each benefit item */
+  }
+  
+  .benefit-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .benefit-text {
+    font-size: 1.25rem;
+  }
+  
+  /* Responsive styling for small screens */
+  @media (max-width: 768px) {
+    .benefits-container {
+      justify-content: center; /* Center the content on smaller screens */
+    }
+  
+    .benefit {
+      width: 80%; /* Ensure each benefit item takes up a good portion of the screen */
+      max-width: none; /* Remove max-width on smaller screens */
+    }
+  }
+  
